@@ -7,7 +7,7 @@ Também as informações das armas e Skins, Level e Chromas de cada uma.
 
 # Exemplo de uso
 
-![enter image description here](../demo.gif)
+![enter image description here](https://github.com/ProHatp/valorant-help/blob/main/demo.gif)
 
 <div>
 <br>
