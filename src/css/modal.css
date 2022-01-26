@@ -1,0 +1,267 @@
+.modal-overlaw-agente {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.431);
+  z-index: 100;
+}
+
+.modal-overflow-loading {
+  display: flex;
+  background: url('../imgs/background-effect-two.png') ;
+  background-color: #181616;
+  border-radius: 15px;
+  box-shadow: 10px 15px 30px rgb(0, 0, 0);
+  z-index: 600;
+  height: 90%;
+}
+
+.modal {
+  width: 60%;
+  height: 63%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto; 
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  text-shadow: none;
+  top: 0;
+  z-index: 600;
+  font-family: DINNextW1G,arial,georgia,sans-serif;
+}
+
+.modal-loading {
+  width: 60%;
+  height: 63%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto; 
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  text-shadow: none;
+  top: 0;
+  z-index: 700;
+  font-family: DINNextW1G,arial,georgia,sans-serif;
+}
+
+/* /////////////////////////////////////// */
+.modal-button-sair {
+  margin-left: 95%;
+  padding: 10px 0px 0px 00px;
+  position: absolute;
+  z-index: 650;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.agent-display {
+  display: flex;
+  background: url('../imgs/background-effect-two.png') ;
+  width: 100%;
+  height: 100%;
+  background-color: #181616;
+  border-radius: 15px;
+  box-shadow: 10px 15px 30px rgb(0, 0, 0);
+}
+
+.modal-name {
+  position: absolute;
+  color: white;
+  float: inline-start;
+  padding: 0px 0px 0px 20px;
+}
+
+.modal-overflow {
+  display: none;
+  background: url('../imgs/background-effect-two.png') ;
+  background-color: #181616;
+  border-radius: 15px;
+  box-shadow: 10px 15px 30px rgb(0, 0, 0);
+}
+
+.modal-infos {
+  text-align: start;
+  padding: 20px;
+  width: 350%;
+}
+
+.modal-infos h1{
+  color: white;
+}
+
+.modal-infos h3 {
+  color: white;
+  font-size: 25px;
+}
+
+.modal-infos p {
+  color: white;
+  font-size: 20px;
+}
+
+.modal-funcao, .modal-biografia{
+  padding: 10px;
+}
+
+.modal-funcao img {
+  width: 18px;
+}
+
+.modal-img img{
+  width: 120%;
+}
+
+/* Button */
+
+.modal-button {
+  display: flex;
+  justify-content: end;
+}
+
+.modal-button a {
+  width: 100%;
+  max-width: 240px;
+  height: 54px;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
+  position: relative;
+  margin: 10px 0;
+}
+
+.modal-button a.white:hover > p {
+  color: #ece8e1;
+}
+
+.modal-button a.white > p {
+  background: #ece8e1;
+  color: #0f1923;
+}
+
+.modal-button a.white > p span.base {
+  border: 1px solid transparent;
+}
+
+.modal-button a.transparent:hover > p {
+  color: #ece8e1;
+}
+
+.modal-button a.transparent:hover > p span.text {
+  box-shadow: 0 0 0 1px #ece8e1;
+}
+
+.modal-button a.transparent > p {
+  background: #0f1923;
+  color: #ece8e1;
+}
+
+.modal-button a.transparent > p span.base {
+  border: 1px solid #ece8e1;
+}
+
+.modal-button a:after, .modal-button a:before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 8px;
+  background: #0f1923;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modal-button a:before {
+  right: 0;
+  left: initial;
+}
+
+.modal-button a p {
+  margin: 0;
+  height: 54px;
+  line-height: 54px;
+  box-sizing: border-box;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.modal-button a p span.base {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border: 1px solid #ffffff;
+}
+
+.modal-button a p span.base:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  left: -1px;
+  top: -1px;
+  background: #0f1923;
+  position: absolute;
+  transition: 0.3s ease-out all;
+}
+
+.modal-button a p span.bg {
+  left: -5%;
+  position: absolute;
+  background: #ff4655;
+  width: 0;
+  height: 100%;
+  z-index: 3;
+  transition: 0.3s ease-out all;
+  transform: skewX(-10deg);
+}
+
+.modal-button a p span.text {
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.modal-button a p span.text:after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  right: 0;
+  bottom: 0;
+  background: #0f1923;
+  position: absolute;
+  transition: 0.3s ease-out all;
+  z-index: 5;
+}
+
+.modal-button a:hover {
+  color: #ece8e1;
+}
+
+.modal-button a:hover span.bg {
+  width: 110%;
+}
+
+.modal-button a:hover span.text:after {
+  background: #ece8e1;
+}

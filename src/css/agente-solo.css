@@ -1,0 +1,122 @@
+.page-agente-solo {
+  background-color: #ECE8E1;
+}
+
+.localVideo video{
+  width: 100%;
+  z-index: -1;
+}
+
+.img-video {
+  text-align: center;
+}
+
+.img-video img {
+  width: 50%;
+  top: 20px;
+  position: absolute;
+}
+
+.img-video h1 {
+  font-size: 1000%;
+  left: 10%;
+  position: absolute;
+  font-family: sans-serif;
+  color: white;
+}
+
+.container-antes {
+  background: url('../imgs/background-effect-two.png') ;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../imgs/background-effect.png') no-repeat;
+}
+
+.container-itens { 
+  background-color: #ECE8E1;
+  width: 70%;
+  height: 1000px;
+}
+
+[data-anime] {
+  opacity: 0;
+  transition: 0.3s; /* toda transintion que tiver no css vai tem 3s de deferença */
+}
+
+[data-anime='top'] {
+  transform: translate(-50, -50px);
+}
+
+.animate {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+.local-texto-habilidades h1 {
+  text-align: start;
+  font-family: sans-serif;
+}
+
+/* Parte de habilidades */
+.local-habilidades {
+  display: flex;
+}
+
+.local-imagens-habilidades {
+  width: 85%;
+}
+
+.local-imagens-overlaw {
+  display: flex;
+}
+
+.img-habilidades {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 90px;
+  border: 1px solid black;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.img-habilidades img {
+  width: 75px;
+  filter: brightness(0);
+}
+
+.img-habilidades:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.select img{
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(300deg) brightness(95%) contrast(100%);
+}
+
+/* Local texto das habilidades*/
+.texto-habilidades h2 {
+  font-family: sans-serif;
+}
+
+.texto-habilidades p {
+  font-size: 25px;
+  font-family: "Tungsten-Bold",arial,georgia,sans-serif;
+  color: #768079;
+}
+
+/* Local das gifs */
+.local-gif-habilidade {
+  padding: 10px;
+  width: 100%;
+}
+
+.local-gif-habilidade video {
+  width: 100%;
+  box-shadow: 10px 15px 20px black;
+}

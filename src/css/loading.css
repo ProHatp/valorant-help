@@ -1,0 +1,73 @@
+.loading {
+  background: #101823;
+  font-family: arial, georgia, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto; 
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  text-shadow: none;
+  top: 0;
+  z-index: 600;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  align-self: end;
+  animation: 400ms ease-in-out 500ms 1 slideInFromTop backwards;
+}
+
+.logo .first {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #ff4654;
+  clip-path: polygon(0 10%, 70% 90%, 35% 90%, 0 50%);
+}
+
+.logo .second {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #ff4654;
+  clip-path: polygon(100% 10%, 100% 50%, 88% 65%, 55% 65%);
+}
+
+h1 {
+  align-self: start;
+  text-align: center;
+  animation: 400ms ease-in-out 800ms 1 slideInFromBottom backwards;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(300%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,93 @@
+@import url(https://lolstatic-a.akamaihd.net/webfonts/live/css/valorant/fonts.css);
+@import url(https://fonts.googleapis.com/css?family=Anton|Black+Han+Sans|Kanit:700|Noto+Sans+HK:900|Noto+Sans+JP:700|Noto+Sans+SC:700|Noto+Sans+TC:700|Oswald:700&display=swap&subset=chinese-hongkong,chinese-simplified,chinese-traditional,cyrillic,japanese,korean,thai,vietnamese);
+
+.page-agente-solo-armas {
+  background-color: #ECE8E1;
+}
+
+.container-antes-armas {
+  background: url('../imgs/background-effect-two.png') ;
+}
+
+.container-armas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../imgs/background-effect.png') no-repeat;
+}
+
+.container-itens-armas { 
+  background-color: #ECE8E1;
+  margin: 10px;
+  width: 70%;
+}
+
+/* Local da arma inteira */
+.container-arma {
+  width: 47%;
+  border: 1px solid #BDBCB7;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.local-select-armas {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.local-arma {
+  width: 100%;
+  height: 350px;
+  display: flex;
+}
+
+/* Local da nome da arma */
+.local-nome-arma {
+  margin: 30px;
+}
+
+.local-nome-arma span {
+  font-family: Tungsten-Bold, arial, georgia, sans-serif;
+  font-size: 60px;
+  color: #0F1923;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+/* Local da imagem da arma */
+.local-img-arma {
+  width: 100%;
+  height: 100%;
+}
+
+.img-large {
+  width: 60%;
+  height: auto;
+  margin: 120px 10px 0px 80px;
+  filter: drop-shadow(8px 16px 0px rgba(0, 0, 0, 0.4));
+}
+
+.img-no-large {
+  width: 100%;
+  height: auto;
+  margin: 120px 10px 0px -10px;
+  filter: drop-shadow(8px 16px 0px rgba(0, 0, 0, 0.4));
+}
+
+/* Local do texto da categoria */
+.local-categoria-arma {
+  text-align: end;
+  margin: 10px;
+}
+
+.local-categoria-arma span{
+  font-family: Tungsten-Bold, arial, georgia, sans-serif;
+  font-size: 40px;
+  color: #0F1923;
+  text-transform: uppercase;
+  text-align: end;
+  text-decoration: none;
+}
+
